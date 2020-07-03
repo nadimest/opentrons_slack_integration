@@ -1,11 +1,11 @@
-# opentrons_slack_integration
+# Opentrons-Slack Integration
 A simple example showing how to integrate slack messaging as a step of the Opentrons OT2 liquid handling robots.
 
 
 ### Intro
-If you are using slack in your organisation, you can include a protocol step to send a message to a specific channel to alert when 
+If you are using slack in your organisation you can include a protocol step to send a message to a specific channel. This is useful if you want receive notifications when a protocol is done, or when a specific step needs attention. 
 
-The idea is to take advatange of the python programming of OT2 protocols and introduce a python method that sends a slack message to a predefined channel.
+The idea is to take advatange of the python programming of OT2 protocols and introduce a python method that sends a slack message to a predefined channel. In this guide I show a way that does uses the OT2 stock OS, hence is independent of firmware updates (at least in the short term!)
 
 
 ### Setting Up slack to post messages using Incoming Webhooks
