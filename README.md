@@ -1,5 +1,5 @@
 # Opentrons-Slack Integration
-A simple example showing how to integrate slack messaging as a step of the Opentrons OT2 liquid handling robots.
+A simple example showing how to integrate slack messaging as a step of the Opentrons OT2 liquid handling robots..
 
 
 ### Intro
